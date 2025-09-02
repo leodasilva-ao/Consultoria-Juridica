@@ -129,7 +129,7 @@ export default function AppointmentPage() {
                 Sobre Nós
               </Link>
               <Link href="/areas" className="text-foreground hover:text-primary transition-colors">
-                Áreas de Atuação
+                Áreas de Actuação
               </Link>
               <Link href="/servicos" className="text-foreground hover:text-primary transition-colors">
                 Serviços
@@ -138,7 +138,7 @@ export default function AppointmentPage() {
                 Blog
               </Link>
               <Link href="/contato" className="text-foreground hover:text-primary transition-colors">
-                Contato
+                Contacto
               </Link>
               <Button variant="outline" asChild>
                 <Link href="/agendamento">Agendar Consulta</Link>
@@ -159,7 +159,7 @@ export default function AppointmentPage() {
               Agende sua <span className="text-primary">consulta gratuita</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-              Preencha o formulário abaixo e nossa equipe entrará em contato para confirmar sua consulta jurídica
+              Preencha o formulário abaixo e nossa equipe entrará em contacto para confirmar sua consulta jurídica
               gratuita.
             </p>
           </div>
@@ -178,7 +178,7 @@ export default function AppointmentPage() {
                     <User className="h-5 w-5 text-primary" />
                     <CardTitle>Informações Pessoais</CardTitle>
                   </div>
-                  <CardDescription>Preencha seus dados para contato</CardDescription>
+                  <CardDescription>Preencha seus dados para contacto</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="grid md:grid-cols-2 gap-4">
@@ -211,7 +211,7 @@ export default function AppointmentPage() {
                         id="phone"
                         value={formData.phone}
                         onChange={(e) => handleInputChange("phone", e.target.value)}
-                        placeholder="(11) 99999-9999"
+                        placeholder="(+244) 999-999-999"
                         required
                       />
                     </div>
@@ -394,7 +394,7 @@ export default function AppointmentPage() {
                         <Link href="/privacidade" className="text-primary hover:underline">
                           política de privacidade
                         </Link>
-                        . Autorizo o contato por telefone, e-mail e WhatsApp para agendamento da consulta.
+                        . Autorizo o contacto por telefone, e-mail e WhatsApp para agendamento da consulta.
                       </Label>
                     </div>
 
@@ -440,28 +440,28 @@ export default function AppointmentPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-2xl font-bold text-foreground mb-2">Prefere falar conosco diretamente?</h2>
-              <p className="text-muted-foreground">Entre em contato pelos canais abaixo</p>
+              <p className="text-muted-foreground">Entre em contacto pelos canais abaixo</p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <Phone className="h-8 w-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Telefone</h3>
-                  <p className="text-muted-foreground">(11) 9999-9999</p>
+                  <p className="text-muted-foreground">(+244) 999-999-999</p>
                 </CardContent>
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <Mail className="h-8 w-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">E-mail</h3>
-                  <p className="text-muted-foreground">contato@consultoria.com.br</p>
+                  <p className="text-muted-foreground">contacto@consultoria.com.br</p>
                 </CardContent>
               </Card>
               <Card className="text-center">
                 <CardContent className="pt-6">
                   <MapPin className="h-8 w-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Endereço</h3>
-                  <p className="text-muted-foreground">Rua Exemplo, 123 - São Paulo/SP</p>
+                  <p className="text-muted-foreground">Rua Exemplo, 123 - Kilamba</p>
                 </CardContent>
               </Card>
             </div>
@@ -488,7 +488,7 @@ export default function AppointmentPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Áreas de Atuação</h3>
+              <h3 className="font-semibold mb-4">Áreas de Actuação</h3>
               <ul className="space-y-2 text-background/70">
                 <li>Direito Civil</li>
                 <li>Direito Penal</li>
@@ -508,12 +508,12 @@ export default function AppointmentPage() {
             <div>
               <h3 className="font-semibold mb-4">Contato</h3>
               <div className="space-y-2 text-background/70">
-                <p>(11) 9999-9999</p>
+                <p>(+244) 999-999-999</p>
                 <p>contato@consultoria.com.br</p>
                 <p>
                   Rua Exemplo, 123
                   <br />
-                  São Paulo - SP
+                  Kilamba
                 </p>
               </div>
             </div>
