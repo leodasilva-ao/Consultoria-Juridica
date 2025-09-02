@@ -83,7 +83,7 @@ export default function PrivacidadePage() {
                   <p>Coletamos informações que você nos fornece diretamente, incluindo:</p>
                   <ul className="list-disc pl-6 space-y-2">
                     <li>
-                      <strong>Informações de contato:</strong> nome, email, telefone, endereço
+                      <strong>Informações de contacto:</strong> nome, email, telefone, endereço
                     </li>
                     <li>
                       <strong>Informações profissionais:</strong> empresa, cargo, área de interesse jurídico
@@ -199,10 +199,10 @@ export default function PrivacidadePage() {
                         <strong>Email:</strong> privacidade@consultoria.com.br
                       </li>
                       <li>
-                        <strong>Telefone:</strong> (11) 9999-9999
+                        <strong>Telefone:</strong> (+244) 936-822-703
                       </li>
                       <li>
-                        <strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo - SP
+                        <strong>Endereço:</strong> Rua Exemplo, 123 - Kilamba
                       </li>
                       <li>
                         <strong>Encarregado de Dados:</strong> Dr. João Silva

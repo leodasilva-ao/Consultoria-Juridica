@@ -28,14 +28,14 @@ export default function AboutPage() {
                 Sobre Nós
               </Link>
               <Link href="/areas" className="text-foreground/80 hover:text-primary transition-colors font-medium">
-                Áreas de Atuação
+                Áreas de Actuação
               </Link>
               <Link href="/servicos" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground/80 hover:text-primary transition-colors font-medium">
+              {/*<Link href="/blog" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Blog
-              </Link>
+              </Link> */}
               <Link href="/contato" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Contacto
               </Link>
@@ -130,7 +130,7 @@ export default function AboutPage() {
             </Badge>
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">Nossos Pilares</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Os valores que norteiam nossa atuação e definem nossa identidade
+              Os valores que norteiam nossa actuação e definem nossa identidade
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -385,7 +385,7 @@ export default function AboutPage() {
             >
               <Link href="/contato">
                 <Phone className="mr-3 h-6 w-6" />
-                Entrar em Contato
+                Entrar em Contacto
               </Link>
             </Button>
           </div>
@@ -429,14 +429,14 @@ export default function AboutPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Contato</h3>
+              <h3 className="font-semibold mb-4">Contacto</h3>
               <div className="space-y-2 text-background/70">
-                <p>(11) 9999-9999</p>
+                <p>(11) 936-822-703</p>
                 <p>contato@consultoria.com.br</p>
                 <p>
                   Rua Exemplo, 123
                   <br />
-                  São Paulo - SP
+                  Kilamba
                 </p>
               </div>
             </div>

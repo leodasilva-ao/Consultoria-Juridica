@@ -57,9 +57,9 @@ export default function ContatoPage() {
               <Link href="/servicos" className="text-foreground hover:text-primary transition-colors">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              {/*<Link href="/blog" className="text-foreground hover:text-primary transition-colors">
                 Blog
-              </Link>
+              </Link> */}
               <Link href="/contato" className="text-primary font-medium">
                 Contato
               </Link>
@@ -76,7 +76,7 @@ export default function ContatoPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
-              Entre em Contato
+              Entre em Contacto
             </Badge>
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
               Estamos aqui para <span className="text-primary">ajudar você</span>
@@ -100,7 +100,7 @@ export default function ContatoPage() {
                 <CardTitle>Telefone</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold text-foreground mb-2">(11) 3456-7890</p>
+                <p className="text-lg font-semibold text-foreground mb-2">(+244) 936-822-703</p>
                 <p className="text-muted-foreground mb-4">Segunda a Sexta: 8h às 18h</p>
                 <Button variant="outline" size="sm" asChild>
                   <a href="tel:+551134567890">Ligar Agora</a>
@@ -116,10 +116,10 @@ export default function ContatoPage() {
                 <CardTitle>WhatsApp</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold text-foreground mb-2">(11) 99999-9999</p>
+                <p className="text-lg font-semibold text-foreground mb-2">(+244) 936-822-703</p>
                 <p className="text-muted-foreground mb-4">Atendimento rápido e direto</p>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                  <a href="http://wa.me/244936822703" target="_blank" rel="noopener noreferrer">
                     Conversar
                   </a>
                 </Button>
@@ -155,14 +155,14 @@ export default function ContatoPage() {
               <Card>
                 <CardHeader>
                   <CardTitle>Formulário de Contato</CardTitle>
-                  <CardDescription>Preencha o formulário abaixo e entraremos em contato em breve</CardDescription>
+                  <CardDescription>Preencha o formulário abaixo e entraremos em contacto em breve</CardDescription>
                 </CardHeader>
                 <CardContent>
                   {isSubmitted ? (
                     <div className="text-center py-8">
                       <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
                       <h3 className="text-xl font-semibold text-foreground mb-2">Mensagem enviada!</h3>
-                      <p className="text-muted-foreground">Obrigado pelo contato. Retornaremos em breve.</p>
+                      <p className="text-muted-foreground">Obrigado pelo contacto. Retornaremos em breve.</p>
                     </div>
                   ) : (
                     <form onSubmit={handleSubmit} className="space-y-6">
@@ -183,7 +183,7 @@ export default function ContatoPage() {
                             id="telefone"
                             value={formData.telefone}
                             onChange={(e) => handleInputChange("telefone", e.target.value)}
-                            placeholder="(11) 99999-9999"
+                            placeholder="(+244) 000-000-000"
                             required
                           />
                         </div>
@@ -260,9 +260,9 @@ export default function ContatoPage() {
                       <p className="text-muted-foreground">
                         Rua dos Advogados, 123 - Sala 456
                         <br />
-                        Centro - São Paulo - SP
+                        Centro - Kilamba- SP
                         <br />
-                        CEP: 01234-567
+                        NIF: 012-345-670-LA-024
                       </p>
                     </div>
 
@@ -301,11 +301,11 @@ export default function ContatoPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Precisa de atendimento urgente?</h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Para casos urgentes, entre em contato conosco através do WhatsApp ou telefone.
+            Para casos urgentes, entre em contacto conosco através do WhatsApp ou telefone.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="secondary" size="lg" asChild>
-              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+              <a href="http://wa.me/244936822703" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp Urgente
               </a>
@@ -316,7 +316,7 @@ export default function ContatoPage() {
               className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+551134567890">
+              <a href="tel:+244936822703">
                 <Phone className="mr-2 h-5 w-5" />
                 Ligar Agora
               </a>
@@ -344,13 +344,13 @@ export default function ContatoPage() {
                 <a href="mailto:contato@consultoria.com.br" className="text-secondary hover:text-secondary/80">
                   <Mail className="h-5 w-5" />
                 </a>
-                <a href="https://wa.me/5511999999999" className="text-secondary hover:text-secondary/80">
+                <a href="http://wa.me/244936822703" className="text-secondary hover:text-secondary/80">
                   <MessageCircle className="h-5 w-5" />
                 </a>
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Áreas de Atuação</h3>
+              <h3 className="font-semibold mb-4">Áreas de Actuação</h3>
               <ul className="space-y-2 text-background/70">
                 <li>
                   <Link href="/areas" className="hover:text-background">
@@ -407,11 +407,11 @@ export default function ContatoPage() {
                     Sobre Nós
                   </Link>
                 </li>
-                <li>
+                {/*<li>
                   <Link href="/blog" className="hover:text-background">
                     Blog Jurídico
                   </Link>
-                </li>
+                </li>*/}
                 <li>
                   <Link href="/faq" className="hover:text-background">
                     FAQ

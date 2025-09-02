@@ -139,10 +139,10 @@ export default function TermosPage() {
                       <strong>Email:</strong> contato@consultoria.com.br
                     </li>
                     <li>
-                      <strong>Telefone:</strong> (+244) 999-999-999
+                      <strong>Telefone:</strong> (+244) 936-822-703
                     </li>
                     <li>
-                      <strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo - SP
+                      <strong>Endereço:</strong> Rua Exemplo, 123 - Kilamba
                     </li>
                   </ul>
                 </CardContent>

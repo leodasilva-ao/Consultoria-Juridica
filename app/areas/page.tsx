@@ -151,16 +151,16 @@ export default function PracticeAreasPage() {
                 Sobre Nós
               </Link>
               <Link href="/areas" className="text-primary font-medium">
-                Áreas de Atuação
+                Áreas de Actuação
               </Link>
               <Link href="/servicos" className="text-foreground hover:text-primary transition-colors">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              {/* <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
                 Blog
-              </Link>
+              </Link> */}
               <Link href="/contato" className="text-foreground hover:text-primary transition-colors">
-                Contato
+                Contacto
               </Link>
               <Button asChild>
                 <Link href="/agendamento">Agendar Consulta</Link>
@@ -175,7 +175,7 @@ export default function PracticeAreasPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4">
-              Áreas de Atuação
+              Áreas de Actuação
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
               <span className="text-primary">Expertise</span> em todas as áreas do{" "}
@@ -239,7 +239,7 @@ export default function PracticeAreasPage() {
                 <Briefcase className="h-8 w-8 text-primary" />
               </div>
               <h3 className="font-semibold text-foreground mb-2">Experiência Comprovada</h3>
-              <p className="text-sm text-muted-foreground">Mais de 25 anos de atuação no mercado jurídico</p>
+              <p className="text-sm text-muted-foreground">Mais de 25 anos de actuação no mercado jurídico</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -314,7 +314,7 @@ export default function PracticeAreasPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Áreas de Atuação</h3>
+              <h3 className="font-semibold mb-4">Áreas de Actuação</h3>
               <ul className="space-y-2 text-background/70">
                 <li>Direito Civil</li>
                 <li>Direito Penal</li>
@@ -332,14 +332,14 @@ export default function PracticeAreasPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Contato</h3>
+              <h3 className="font-semibold mb-4">Contacto</h3>
               <div className="space-y-2 text-background/70">
-                <p>(11) 9999-9999</p>
+                <p>(+244) 936-822-703</p>
                 <p>contato@consultoria.com.br</p>
                 <p>
                   Rua Exemplo, 123
                   <br />
-                  São Paulo - SP
+                  Kilamba
                 </p>
               </div>
             </div>

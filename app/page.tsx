@@ -25,14 +25,14 @@ export default function HomePage() {
                 Sobre Nós
               </Link>
               <Link href="/areas" className="text-foreground/80 hover:text-primary transition-colors font-medium">
-                Áreas de Atuação
+                Áreas de Actuação
               </Link>
               <Link href="/servicos" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground/80 hover:text-primary transition-colors font-medium">
+              {/*<Link href="/blog" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Blog
-              </Link>
+              </Link> */}
               <Link href="/contato" className="text-foreground/80 hover:text-primary transition-colors font-medium">
                 Contacto
               </Link>

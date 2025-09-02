@@ -86,14 +86,14 @@ export default function ServicesPage() {
                 Sobre Nós
               </Link>
               <Link href="/areas" className="text-foreground hover:text-primary transition-colors">
-                Áreas de Atuação
+                Áreas de Actuação
               </Link>
               <Link href="/servicos" className="text-primary font-medium">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              {/*<Link href="/blog" className="text-foreground hover:text-primary transition-colors">
                 Blog
-              </Link>
+              </Link>*/}
               <Link href="/contato" className="text-foreground hover:text-primary transition-colors">
                 Contato
               </Link>
@@ -315,7 +315,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Áreas de Atuação</h3>
+              <h3 className="font-semibold mb-4">Áreas de Actuação</h3>
               <ul className="space-y-2 text-background/70">
                 <li>Direito Civil</li>
                 <li>Direito Penal</li>
@@ -333,14 +333,14 @@ export default function ServicesPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4">Contato</h3>
+              <h3 className="font-semibold mb-4">Contacto</h3>
               <div className="space-y-2 text-background/70">
-                <p>(11) 9999-9999</p>
+                <p>(+244) 936-822-703</p>
                 <p>contato@consultoria.com.br</p>
                 <p>
                   Rua Exemplo, 123
                   <br />
-                  São Paulo - SP
+                  Kilamba
                 </p>
               </div>
             </div>

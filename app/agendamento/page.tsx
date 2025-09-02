@@ -134,9 +134,9 @@ export default function AppointmentPage() {
               <Link href="/servicos" className="text-foreground hover:text-primary transition-colors">
                 Serviços
               </Link>
-              <Link href="/blog" className="text-foreground hover:text-primary transition-colors">
+              {/*<Link href="/blog" className="text-foreground hover:text-primary transition-colors">
                 Blog
-              </Link>
+              </Link> */}
               <Link href="/contato" className="text-foreground hover:text-primary transition-colors">
                 Contacto
               </Link>
@@ -211,7 +211,7 @@ export default function AppointmentPage() {
                         id="phone"
                         value={formData.phone}
                         onChange={(e) => handleInputChange("phone", e.target.value)}
-                        placeholder="(+244) 999-999-999"
+                        placeholder="(+244) 000-000-000"
                         required
                       />
                     </div>
@@ -447,7 +447,7 @@ export default function AppointmentPage() {
                 <CardContent className="pt-6">
                   <Phone className="h-8 w-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Telefone</h3>
-                  <p className="text-muted-foreground">(+244) 999-999-999</p>
+                  <p className="text-muted-foreground">(+244) 936-822-703</p>
                 </CardContent>
               </Card>
               <Card className="text-center">
