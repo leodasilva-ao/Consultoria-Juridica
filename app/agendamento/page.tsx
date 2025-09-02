@@ -216,7 +216,7 @@ export default function AppointmentPage() {
                       />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor="cpfCnpj">CPF/CNPJ</Label>
+                      <Label htmlFor="cpfCnpj">NIF</Label>
                       <Input
                         id="cpfCnpj"
                         value={formData.cpfCnpj}
