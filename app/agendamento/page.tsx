@@ -221,7 +221,7 @@ export default function AppointmentPage() {
                         id="cpfCnpj"
                         value={formData.cpfCnpj}
                         onChange={(e) => handleInputChange("cpfCnpj", e.target.value)}
-                        placeholder="000.000.000-00"
+                        placeholder="000.000.000-LA-000"
                       />
                     </div>
                   </div>
